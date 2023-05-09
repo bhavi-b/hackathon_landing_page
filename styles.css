@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 20px;
+    color: #146c94;
+    text-decoration: none;
+}
+
+header{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+}
+
+.logo{
+    cursor: pointer;
+}
+.navbarLinks {
+    list-style: none;
+}
+
+.navbarLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navbarLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navbarLinks li a:hover {
+    color: #19a7ce;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 0, 0, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(25, 167, 206, 0.8);
+    color: #000000;
+}
+
+#banner {
+    font-family: 'Monoton';
+    font-weight: 400;
+    font-size: 6.5rem;
+    text-align: center;
+    color: #F6F1F1;
+    padding-bottom: 20px;
+}
+
+.stack {
+    padding:8% 5%;
+    background-color: #000000;
+    color: #F6F1F1;
+}
+
+#hack {
+    color: #F6F1F1;
+    font-size: 2rem;
+    font-weight: 700;
+    background: rgb(25,167,206);
+    background: linear-gradient(90deg, rgba(25,167,206,1) 9%, rgba(20,108,148,1) 48%);
+    padding: 8% 10%;
+}
+
+#about {
+    background-color: #000000;
+    color: #F6F1F1;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 8% 10%;
+}
+
+h2 {
+    font-family: 'Monoton';
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 2%;
+}
+
+#contact {
+    background: rgb(25,167,206);
+    background: linear-gradient(90deg, rgba(25,167,206,1) 9%, rgba(20,108,148,1) 48%);
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+}
+
+#cont {
+    position: relative;
+    margin: auto;
+    width: 130%;
+}
